@@ -1,6 +1,5 @@
 //dependency
 const express = require('express');
-const mysql = require('mysql');
 
 //express configuration
 const app = express();

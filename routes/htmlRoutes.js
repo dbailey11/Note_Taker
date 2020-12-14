@@ -1,6 +1,6 @@
 
 const path = require('path');
-const router = require('express').Router();
+// const router = require('express').Router();
 
 //routing
 module.exports = (app) => {
