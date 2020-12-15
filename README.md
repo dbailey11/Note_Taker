@@ -1,23 +1,40 @@
 # Note_Taker
 
-front end is built
---> use express.js and will save and retrieve note data data from a JSON file.
+## Discription:
 
-* build back end
-* connect front and back end
-* deploy to heroku
+Note_Taker is a simple application that uses the functionality of the front end and back end togheter to allow a user to enter any notes/events/to-dos they would like and have it stored in the back end using Express.js. The front end was provided as starter code and our task was to code the back end and connect them both.
 
-# ACCEPTANCE CRITERIA
-GIVEN a note-taking application
-WHEN I open the Note Taker
- - THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
- - THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
- - THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
- - THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
- - THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
- - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+## Table of Contents
+
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [Skills](#skills)
+- [License](#license)
+- [Resources](#resources)
+
+## Usage
+
+To load the applicaiton click the link below then press "Get Started" to be directed to the page to write your first note. 
+
+## Screenshot
+
+![Image of daily planner application](homescreenshot_.png)
+
+## Skills
+
+![badges](https://img.shields.io/badge/<SKILLS>-<JAVASCRIPT>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
+![badges](https://img.shields.io/badge/<SKILLS>-<Node>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
+![badges](https://img.shields.io/badge/<SKILLS>-<Express>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
+## License
+
+[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<ACADEMIC>-<COLOR>.svg)](https://shields.io/)License Documentation: (https://opensource.org/licenses/AFL-3.0)
+
+## Resources
+* Classmates: Mychal Martinez, Christain Go
+* Week 11 - Hot Resturant class activity
+* GitHub docs
+* MDN web docs
+* Stack overflow
