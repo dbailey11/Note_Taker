@@ -1,6 +1,8 @@
 
 //---------------------------------------------------------------------------------------------
 
+// const { response } = require("express");
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -37,7 +39,6 @@ const getNotes = () =>
     },
   });
 
-console.log('hi');
 
 const saveNote = (note) =>
   fetch("/api/notes", {
@@ -52,7 +53,9 @@ const saveNote = (note) =>
       return response.json();
     }
     alert("Error: " + response.statusText);
+
   });
+  // console.log("hello", saveNote);
 
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
@@ -61,6 +64,7 @@ const deleteNote = (id) =>
       "Content-Type": "application/json",
     },
   });
+  // console.log("hi");
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
@@ -83,6 +87,7 @@ const handleNoteSave = () => {
     renderActiveNote();
   });
 };
+
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
@@ -173,4 +178,5 @@ if (window.location.pathname === "/notes") {
   noteTitle.addEventListener("keyup", handleRenderSaveBtn);
   noteText.addEventListener("keyup", handleRenderSaveBtn);
 }
+
 getAndRenderNotes();
