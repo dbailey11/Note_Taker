@@ -16,6 +16,8 @@ Note_Taker is a simple application that uses the functionality of the front end 
 
 To load the applicaiton click the link below then press "Get Started" to be directed to the page to write your first note. 
 
+Click here to run application: https://afternoon-inlet-16980.herokuapp.com/
+
 ## Screenshot
 
 ![Image of daily planner application](homescreenshot_.png)
