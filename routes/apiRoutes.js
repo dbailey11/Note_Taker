@@ -10,13 +10,23 @@ module.exports = (app) => {
 
   app.post("/api/notes", (req, res) => {
     const note = req.body;
-    let id = dbNotes.length;
+    let id = notes.length;
     note.id = id + 1;
-    dbNotes.push(note);
-    return res.json(dbNotes);
+    notes.push(note);
+    return res.json(notes);
+    updateNoteDb();
   });
 
   // app.delete
+
+  //function to update json files
+  function updateNoteDb() {
+    fs.writeFile("db/db.json",JSON.stringify(notes,'\t'),err => {
+        if (err) throw err;
+        return true;
+    });
+}
+
 
 };
 
