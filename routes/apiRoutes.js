@@ -9,7 +9,6 @@ module.exports = (app) => {
   });
 
   app.post("/api/notes", (req, res) => {
-    // req.body.id = uniqid();
     const note = req.body;
     let id = dbNotes.length;
     note.id = id + 1;
